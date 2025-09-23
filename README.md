@@ -16,6 +16,6 @@ This repository contains C++ programs demonstrating basic image processing algor
 
 3. **Image Inspection**  
    - Print image dimensions, type, and sample pixel values for analysis.
-
-## File Structure
+## usage
+g++ -o convolution_grayscale src/convolution_grayscale.cpp `pkg-config --cflags --libs opencv4`
 
